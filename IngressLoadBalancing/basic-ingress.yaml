@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: basic-ingress
 spec:
-  defaultBackend:
+  defaultBackend: ## NodePort
     service:
       name: web
       port:
