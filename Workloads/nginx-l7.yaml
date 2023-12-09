@@ -1,0 +1,26 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: nginx-l7
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /greet-the-world
+        pathType: Exact
+        backend:
+          service:
+            name: hello-app-service
+            port:
+              number: 80
+      - path: /greet-kubernetes
+        pathType: Exact
+        backend:
+          service:
+            name: hello-kubernetes-service
+            port:
+              number: 32123
+
+
+
+      

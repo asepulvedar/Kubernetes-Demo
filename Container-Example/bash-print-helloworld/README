@@ -1,0 +1,25 @@
+## Build the App
+docker build -t my-python-app .
+
+
+# Create the Artifact Registry
+gcloud artifacts repositories create docker-repo --repository-format=docker \ 
+    --location=us-central1 --description="Docker repository"
+
+# Authenticate Docker to GCR
+
+gcloud auth configure-docker \
+    us-central1-docker.pkg.dev
+
+# Build the Docker Image with Docker with Artifact Registry Tag
+docker build -t us-central1-docker.pkg.dev/alan-sandbox-393620/docker-repo/my-python-app:v1 .
+
+# Push the Image
+docker push us-central1-docker.pkg.dev/alan-sandbox-393620/docker-repo/my-python-app:v1
+
+# Push the Image to Docker Hub
+docker push asepulvedar/docker-repo:tagname
+docker build -t asepulvedar/docker-repo/my-python-app:v1 .
+docker push asepulvedar/docker-repo/my-python-app:v1
+
+

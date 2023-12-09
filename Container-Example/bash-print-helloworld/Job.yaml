@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: my-python-app
+spec:
+  template:
+    metadata:
+      name: my-python-app
+    spec:
+      containers:
+      - name: my-python-app
+        image: us-central1-docker.pkg.dev/alan-sandbox-393620/docker-repo/my-python-app:v1  # Replace with your actual image information
+      restartPolicy: Never
+  backoffLimit: 4  # Number of retries before considering a Job as failed
