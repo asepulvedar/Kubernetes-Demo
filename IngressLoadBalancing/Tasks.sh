@@ -30,4 +30,13 @@ kubectl create -f fanout-ingress.yaml
 
 
 
+## Deploy Nginx App
+kubectl apply -f nginx-app.yaml
+
+## Deploy Cluster IP Service
+kubectl apply -f nginx-clusteripservice.yaml
+
+## Modify ingress path
+kubectl apply -f fanout-ingress-v2.yaml
+
 

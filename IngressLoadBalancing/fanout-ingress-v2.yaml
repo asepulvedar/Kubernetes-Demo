@@ -1,0 +1,36 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: fanout-ingress
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /*
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: web
+            port:
+              number: 8080
+      - path: /v1/*
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: web2
+            port:
+              number: 8080
+      - path: /v2/*
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: web2
+            port:
+              number: 8080
+      - path: /nginxdemo/*
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: my-nginx
+            port:
+              number: 80
