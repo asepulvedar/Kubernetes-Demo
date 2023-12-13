@@ -28,8 +28,6 @@ kubectl apply -f web-service-v2.yaml
 kubectl create -f fanout-ingress.yaml
 
 
-
-
 ## Deploy Nginx App
 kubectl apply -f nginx-app.yaml
 

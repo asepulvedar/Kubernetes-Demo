@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "alan-sandbox-393620",
+  "private_key_id": "713939a97276a81b8891ff25185efe7b56e2f6ae",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCVyiGL/mr4tU0q\nP48oTfgk9uepItj87nawi8tTW2Dn5xOn8pWnK0bZr7qcx4gGc5P2I1Tpa3bw/wtK\n4tHNhRWh97Ywn/hxhhL/KZ1EXs9FMLvop1W46xC/RYmF6VxBTdQGflB7sPDbHOA/\nVQfVm5OWKaiDhj3HbT/C25LHm9a5vnzv89r46CxeYlQwX4dHhS/C5tFSzuSyAAyP\n45hEATKLi+/QxkgW1xGb7tdJSCwuvAPDIB8n+RY/Mqhv4WpTRz5rvk6C29ml8qGR\nxvP9X2sNTu+ynJlmCX58ar2ekgGmdfuSaVmTZ080oXQGf5uKT2P9qseHZcaMOfoM\n9YiqUoTHAgMBAAECggEACtQ8LKTOEwD4fS9vKBjK8dEv2lh8m3yZ9BWHM5WNofZg\nw2mUTCuiyaYctazvNpgwgED5qI5uYOnvZRCU3mjasYT5FPbbvUlWIkBd8E1yaqwl\nSaKfXekQouNiF95RHx+DTpzfMLIQF6c0xx9cm6LNvrNwTWHtIXfSfkHlkKzBj1gL\n14nn6NObNxMmoGRKIcvXJOTozV0NKwVPP6Y7qMJnq+pAJhZ5E4hcvBqtrZ8NA5X+\nxtDu7k2WVP44NxglkxQFyXM2r7y4my0ABOI1ikpuUEwXDcbjQquM2rsKfEqiusFr\nc/26wXMgvnZy2dR9MqDv43R35uJiujugTrpjjogQEQKBgQDKqLzuMT1AJ9vhgQdz\ntYCVIMts2BRR9ww2mhvb8Btt/mFC87bpb1s/ti0jXFFMCvgyUVc5B0ehmBWcykZ9\nZTHWpAijCkMpxOu7iobRCgHEalTNUWyFBtyFW8Cj8GiHypanBULhskROKSKl3ACZ\n9zng0gnPD/HGjmH3bOdi6NqfNQKBgQC9NwTQUefeIMjsK/+nLdh2t4AfhVOrQa46\nn1u15f6ZTySezA+F4W98gL/8T7GuZYU6+kiIzZCtrazrX4+mn4tBOvVPrLbtDEXx\nReoYjLVBxmZXA2SKuV0x2GBWA+cttS2OZYkWxo9Fr8s+Gonda9meKjRnDKv/T03E\n5wPCEokniwKBgG87jG9kYU0MU5iDXJa64Xd4x47XTtfqNC7oCTB/ql6GB9ZatGON\n9lSS5lWJPynwv2fG04v+nedo9TvYnjYHTAKWiBMM9+4+InEOSI8F4hBvmFoVPe4J\n5RHhWWvh8U3O+T91GM+OLAWGeHj2tvHLC16FilK3Wqnzznuir6HPUuedAoGATQpl\nz1xKCEtZA7A2e59TD6NPa4Yhtw0bH4tbEAkBTPLIek+j0mMjvZG+mcDpG5UCVi0p\n82mfite4HG3gU3uKe5jB4Rr1sDbbE43f7vb7pjhd2vfqrAElTPJI5zzXl+i5D82P\nr9JQ65LUMgkkMR+Ej72ncH3cWiu0AoP9J7vcVFkCgYAQoOiomw0zmNBSXtHuT1WS\nqLUCFFkz8aHpKfLnJFYkUcOasq0T3rS1f6LR0kCVhe8zXR1NQtTIzgYvn9rz+yie\nPOnyYg7+yZq042GsEbIEnr8NXGaero4GUBXCLOka+zooRALbpvxsAzzvb3V1qyyk\ngrWKnQ9J+vLhnf0bUhlosg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "demo-roles-sa@alan-sandbox-393620.iam.gserviceaccount.com",
+  "client_id": "113589507640362936953",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/demo-roles-sa%40alan-sandbox-393620.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

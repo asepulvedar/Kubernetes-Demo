@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: basic-ingress
   annotations:
-    kubernetes.io/ingress.global-static-ip-name: "web-static-ip"
+    kubernetes.io/ingress.global-static-ip-name: "web-ip"
 spec:
   defaultBackend:
     service:
