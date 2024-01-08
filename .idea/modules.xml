@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Kubernetes-Demo.iml" filepath="$PROJECT_DIR$/.idea/Kubernetes-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cloud Run Apps/pythonProject/.idea/pythonProject.iml" filepath="$PROJECT_DIR$/Cloud Run Apps/pythonProject/.idea/pythonProject.iml" />
     </modules>
   </component>
 </project>

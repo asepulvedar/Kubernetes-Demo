@@ -12,7 +12,6 @@ brew install kind
 ## Crear Cluster con Archivo de Configuracion
 kind create cluster --config create-cluster.yaml
 
-
 ## Explorar el cluster
 kubectl cluster-info --context kind-kind
 

@@ -8,7 +8,7 @@ gcloud container clusters create-auto autopilot-cluster-1  --region=us-central1
 ## Autenticarse con la cuenta de servicio
 # Kubernetes Engine Viewer
 
-gcloud auth activate-service-account --key-file  /Users/alan.sepulveda/Documents/GitHub/Kubernetes-Demo/RBAC/alan-sandbox-393620-713939a97276.json
+gcloud auth activate-service-account --key-file  /Users/alan.sepulveda/Documents/GitHub/Kubernetes-Demo/RBAC/alan-sandbox-393620-3ee24ca46b59.json
 
 gcloud container clusters get-credentials autopilot-cluster-1  --region=us-central1
 
@@ -16,7 +16,7 @@ gcloud components install gke-gcloud-auth-plugin
 
 
 ## Intentar crear un pod con el service account
-kubectl apply -f nginx-app.yaml
+kubectl apply -f pod-app.yaml
 
 ## Error:
 # Error from server (Forbidden):
