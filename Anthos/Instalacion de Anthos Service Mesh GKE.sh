@@ -1,3 +1,7 @@
+##################################################################
+###### Instalación dentro del Cluster
+##################################################################
+
 # switch to west context
 kubectx west
 
@@ -44,10 +48,12 @@ kubectl apply -n $GATEWAY_NAMESPACE \
 
 
 
+##################################################################
+###### Instalación ASM Administrada por Google
+##################################################################
 
 
-
-  ## Esta es la instalacion ASM Administrado
+  ## Esta es la instalacion ASM Administrada
 ./asmcli install \
   --project_id $PROJECT_ID \
   --cluster_name $C1_NAME \
@@ -81,6 +87,9 @@ kubectl create namespace $GATEWAY_NAMESPACE
 # enable sidecar injection on the gateway namespace
 kubectl label ns $GATEWAY_NAMESPACE istio.io/rev=asm-managed --overwrite
 # Apply the configurations
+## Clone the Repositori
+git clone https://github.com/GoogleCloudPlatform/anthos-service-mesh-packages
+
 kubectl apply -n $GATEWAY_NAMESPACE \
   -f $DIR_PATH/samples/gateways/istio-ingressgateway
 

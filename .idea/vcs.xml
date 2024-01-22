@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Anthos/anthos-service-mesh-packages" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Cloud Run" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Container-Example/kubernetes-engine-samples" vcs="Git" />
   </component>
 </project>
