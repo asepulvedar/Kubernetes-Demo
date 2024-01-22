@@ -1,5 +1,6 @@
 #%% Deploy Services
-
+# En este laboratorio se despliegan 2 servicios en diferentes regiones, y aunque sean dferentes versiones de la app, solo
+tiene como finalizad demostrar el balanceo de 2 servicios en diferentes zonas con una sola dirección IP.
 # Deploy Cloud Run service for Hello World 1
 
 gcloud run deploy hello-app-v1 \

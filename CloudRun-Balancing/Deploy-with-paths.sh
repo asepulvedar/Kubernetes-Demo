@@ -1,5 +1,9 @@
 #%% Deploy Services
 
+Se tienen 2 servicios (v1=hello-app:1.0, v2=hello-app:1.0) de Cloud Run en diferentes regiones y
+una vez desplegadas se crea in Load Balancer para con base un NEG tipo SERVERLESS balancear entre las versiones
+desplegadas en distintas regiones a travez de la IP el balancer y el path, Ej:  http://IP_BALANCER:8080/v1
+
 # Deploy Cloud Run service for Hello World 1
 
 gcloud run deploy hello-app-v1 \
